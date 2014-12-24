@@ -6,7 +6,7 @@
   var previousPathtoRegexp = root.pathtoRegexp;
 
   var isArray = root.isArray;
-  var hasRequire = typeof require !== 'undeinfed';
+  var hasRequire = typeof require !== 'undefined';
 
   if (typeof isArray === 'undefined') {
     if (hasRequire) {
